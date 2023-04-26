@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+main,
+section,
+textarea,
+button,
+h1,
+article,
+p,
+span,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "LOTTERIACHAB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #e1edfe;
+  height: 1500px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+main {
+  width: 1200px;
+  height: 30px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: "LOTTERIACHAB";
+  padding-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+#title {
+  width: 300px;
+  height: 35px;
+}
+
+.note {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+}
+
+textarea {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.count {
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+}
+
+#display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: center;
+}
+
+article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 320px;
+  min-height: 300px;
+  word-break: break-all;
+  border: 3px solid #abdbff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+h2,
+p {
+  font-family: "S-CoreDream-3Light";
+}
+
+h2 {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.memo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.number {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #abdbff;
+  border-radius: 50%;
+}
+
+.delete {
+  width: 100%;
+}
+
+p {
+  text-align: left;
+  flex-grow: 1;
+  padding-top: 20px;
+}
+
+button {
+  background-color: skyblue;
+  color: white;
+  border-radius: 30px;
+  width: 306px;
+  height: 40px;
+}

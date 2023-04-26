@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나만의 메모장</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section class="container">
+      <h1>🩵Today's memo🩵</h1>
+      <input placeholder="제목을 입력하세요." type="text" name="" id="title" maxlength="10">
+      <div class="note">
+        <textarea placeholder="내용을 입력하세요." name="" id="content" cols="30" rows="10"
+          onkeydown="updateCounter()"></textarea>
+        <span class="count">(0/500)</span>
+      </div>
+      <button class="memo" onclick="saveNote()">메모</button>
+      <section id="display"></section>
+    </section>
+  </main>
+
+  <script src="JavaScript.js">
+
+  </script>
+</body>
+
+</html>
